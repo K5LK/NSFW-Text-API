@@ -1,0 +1,6 @@
+gunicorn
+fastapi
+gradio-client
+unicorn
+typing
+pydantic
