@@ -18,7 +18,8 @@
 
 <h3>2. Making Requests</h3>
 <p>Once the server is running, you can make requests to it using tools like cURL, Postman, or Python's requests library. Here's an example:</p>
-<pre><code>curl -X POST -H "Content-Type: application/json" -d '{"message": "Your text message here"}' http://localhost:8000/predict</code></pre>
+<pre><code>curl -X POST -H "Content-Type: application/json" -d '{"message": "Your text message here"}' -s  https://nsfw-text-ap
+i.onrender.com/predict </code></pre>
 <p>Replace "Your text message here" with the text you want to classify.</p>
 
 <h3>3. Expected Response</h3>
